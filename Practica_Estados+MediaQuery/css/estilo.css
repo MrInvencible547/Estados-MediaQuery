@@ -1,0 +1,503 @@
+@media (max-width: 600px){
+	.logo{
+		font-size: 16px;	
+		}
+    .links{
+    	font-size: 12px;
+    	padding: 0.3rem 0.5rem;
+    }
+}
+body{
+	background-size: cover;
+	background-image: url(../img/Michoacan.jpg);
+	font-size: 18px;
+}
+
+header{
+	background-color: #FB0404; /*color de fondo de esta caja */
+	color: black; /*color de texto */
+	text-align: center; /*alineacion del texto centrado */
+	padding: 5px;
+	font-size: 2em;
+	width: 100%;
+}
+
+nav{
+	line-height: 30px;
+	background-color: #FAF7F7; /*color de fondo del nav con ese codigo hexadecimal */
+	color: black;
+	height: 600px; /*altura de la caja nav	 */
+	float: left; /*flote a la izquierda */
+	padding: 5px;
+	font-size: 1em; /*tamaño de las letter */
+	text-decoration: none;
+	margin: 20px;
+	width: 20%;
+}
+
+nav a:hover{
+	/*estoy configurando los enlaces cuando los clickeo */
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+section{
+	width: 40%;
+	float: left;
+	
+	color: black;
+	text-align: justify;
+	font-size: 1em;
+	padding: 0px 0px 0px 0px;
+}
+
+footer
+{
+	background-color: #0BFB04;
+	color: black;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+img{
+	display: block;
+	margin: auto;
+	clear: right;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+main .fondo{
+	text-align: center;
+	width: 40%;
+}
+main .fondo img{
+	max-width: 40%;
+	height: auto;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+main .fondo img:hover{
+	//que cuando le paso el mouse por encima a las img
+	transform: scale(1.05);
+}
+
+@media  (max-width: 600px) {
+	body{
+		background-color: darkred;
+
+}
+	nav{
+		line-height: 30px;
+		background-color: black; /*color de fondo del nav con ese codigo hexadecimal */
+		color: pink;
+		height: 400px; /*altura de la caja nav	 */
+		float: left; /*flote a la izquierda */
+		padding: 5px;
+		font-size: 0.5em; /*tamaño de las letter */
+		text-decoration: none;
+		margin: 20px;
+		width: 20%;
+	}
+
+	main .fondo{
+		text-align: center;
+		width: 20%;
+		flex-direction: column;
+		font-size: 0.5em;
+
+	}
+	main .fondo img{
+		width: 60%;
+		height: auto;
+		
+	}
+
+	header{
+		font-size: 1em;
+	}
+
+	footer {
+		font-size: 0.6em;
+
+	}
+
+}
+
+/* Desktops */
+@media (max-width: 1440px){
+
+}
+body{
+	background-size: cover;
+	background-image: url(../img/Michoacan.jpg);
+	font-size: 18px;
+}
+
+header{
+	background-color: #FB0404; /*color de fondo de esta caja */
+	color: black; /*color de texto */
+	text-align: center; /*alineacion del texto centrado */
+	padding: 5px;
+	font-size: 2em;
+	width: 100%;
+}
+
+nav{
+	line-height: 30px;
+	background-color: #FAF7F7; /*color de fondo del nav con ese codigo hexadecimal */
+	color: black;
+	height: 600px; /*altura de la caja nav	 */
+	float: left; /*flote a la izquierda */
+	padding: 5px;
+	font-size: 1em; /*tamaño de las letter */
+	text-decoration: none;
+	margin: 20px;
+	width: 20%;
+}
+
+nav a:hover{
+	/*estoy configurando los enlaces cuando los clickeo */
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+section{
+	width: 40%;
+	float: left;
+	
+	color: black;
+	text-align: justify;
+	font-size: 1em;
+	padding: 0px 0px 0px 0px;
+}
+
+footer
+{
+	background-color: #0BFB04;
+	color: black;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+img{
+	display: block;
+	margin: auto;
+	clear: right;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+main .fondo{
+	text-align: center;
+	width: 40%;
+}
+main .fondo img{
+	max-width: 40%;
+	height: auto;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+main .fondo img:hover{
+	//que cuando le paso el mouse por encima a las img
+	transform: scale(1.05);
+}
+
+@media  (max-width: 600px) {
+	body{
+		background-color: darkred;
+
+}
+	nav{
+		line-height: 30px;
+		background-color: black; /*color de fondo del nav con ese codigo hexadecimal */
+		color: pink;
+		height: 400px; /*altura de la caja nav	 */
+		float: left; /*flote a la izquierda */
+		padding: 5px;
+		font-size: 0.5em; /*tamaño de las letter */
+		text-decoration: none;
+		margin: 20px;
+		width: 20%;
+	}
+
+	main .fondo{
+		text-align: center;
+		width: 20%;
+		flex-direction: column;
+		font-size: 0.5em;
+
+	}
+	main .fondo img{
+		width: 60%;
+		height: auto;
+		
+	}
+
+	header{
+		font-size: 1em;
+	}
+
+	footer {
+		font-size: 0.6em;
+
+	}
+
+}
+
+/* Tablet */
+@media (max-width: 1024px){
+	.card{
+		width: 250px;
+		height: 350px;
+}
+body{
+	background-size: cover;
+	background-image: url(../img/Michoacan.jpg);
+	font-size: 18px;
+}
+
+header{
+	background-color: #FB0404; /*color de fondo de esta caja */
+	color: black; /*color de texto */
+	text-align: center; /*alineacion del texto centrado */
+	padding: 5px;
+	font-size: 2em;
+	width: 100%;
+}
+
+nav{
+	line-height: 30px;
+	background-color: #FAF7F7; /*color de fondo del nav con ese codigo hexadecimal */
+	color: black;
+	height: 600px; /*altura de la caja nav	 */
+	float: left; /*flote a la izquierda */
+	padding: 5px;
+	font-size: 1em; /*tamaño de las letter */
+	text-decoration: none;
+	margin: 20px;
+	width: 20%;
+}
+
+nav a:hover{
+	/*estoy configurando los enlaces cuando los clickeo */
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+section{
+	width: 40%;
+	float: left;
+	
+	color: black;
+	text-align: justify;
+	font-size: 1em;
+	padding: 0px 0px 0px 0px;
+}
+
+footer
+{
+	background-color: #0BFB04;
+	color: black;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+img{
+	display: block;
+	margin: auto;
+	clear: right;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+main .fondo{
+	text-align: center;
+	width: 40%;
+}
+main .fondo img{
+	max-width: 40%;
+	height: auto;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+main .fondo img:hover{
+	//que cuando le paso el mouse por encima a las img
+	transform: scale(1.05);
+}
+
+@media  (max-width: 600px) {
+	body{
+		background-color: darkred;
+
+}
+	nav{
+		line-height: 30px;
+		background-color: black; /*color de fondo del nav con ese codigo hexadecimal */
+		color: pink;
+		height: 400px; /*altura de la caja nav	 */
+		float: left; /*flote a la izquierda */
+		padding: 5px;
+		font-size: 0.5em; /*tamaño de las letter */
+		text-decoration: none;
+		margin: 20px;
+		width: 20%;
+	}
+
+	main .fondo{
+		text-align: center;
+		width: 20%;
+		flex-direction: column;
+		font-size: 0.5em;
+
+	}
+	main .fondo img{
+		width: 60%;
+		height: auto;
+		
+	}
+
+	header{
+		font-size: 1em;
+	}
+
+	footer {
+		font-size: 0.6em;
+
+	}
+
+}
+
+/* Phones */
+@media (max-width: 600px){
+	.card-container{
+	flex-direction: column; 
+}
+body{
+	background-size: cover;
+	background-image: url(../img/Michoacan.jpg);
+	font-size: 18px;
+}
+
+header{
+	background-color: #FB0404; /*color de fondo de esta caja */
+	color: black; /*color de texto */
+	text-align: center; /*alineacion del texto centrado */
+	padding: 5px;
+	font-size: 2em;
+	width: 100%;
+}
+
+nav{
+	line-height: 30px;
+	background-color: #FAF7F7; /*color de fondo del nav con ese codigo hexadecimal */
+	color: black;
+	height: 600px; /*altura de la caja nav	 */
+	float: left; /*flote a la izquierda */
+	padding: 5px;
+	font-size: 1em; /*tamaño de las letter */
+	text-decoration: none;
+	margin: 20px;
+	width: 20%;
+}
+
+nav a:hover{
+	/*estoy configurando los enlaces cuando los clickeo */
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+section{
+	width: 40%;
+	float: left;
+	
+	color: black;
+	text-align: justify;
+	font-size: 1em;
+	padding: 0px 0px 0px 0px;
+}
+
+footer
+{
+	background-color: #0BFB04;
+	color: black;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+img{
+	display: block;
+	margin: auto;
+	clear: right;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+main .fondo{
+	text-align: center;
+	width: 40%;
+}
+main .fondo img{
+	max-width: 40%;
+	height: auto;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+main .fondo img:hover{
+	//que cuando le paso el mouse por encima a las img
+	transform: scale(1.05);
+}
+
+@media  (max-width: 600px) {
+	body{
+		background-color: darkred;
+
+}
+	nav{
+		line-height: 30px;
+		background-color: black; /*color de fondo del nav con ese codigo hexadecimal */
+		color: pink;
+		height: 400px; /*altura de la caja nav	 */
+		float: left; /*flote a la izquierda */
+		padding: 5px;
+		font-size: 0.5em; /*tamaño de las letter */
+		text-decoration: none;
+		margin: 20px;
+		width: 20%;
+	}
+
+	main .fondo{
+		text-align: center;
+		width: 20%;
+		flex-direction: column;
+		font-size: 0.5em;
+
+	}
+	main .fondo img{
+		width: 60%;
+		height: auto;
+		
+	}
+
+	header{
+		font-size: 1em;
+	}
+
+	footer {
+		font-size: 0.6em;
+
+	}
+
+}
